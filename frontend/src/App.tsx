@@ -4,9 +4,17 @@ import { Table } from "./components/Table";
 
 function App() {
   return (
-    <Box sx={{ height: "100vh", width: "100vw" }}>
+    <Box
+      sx={{
+        height: "100vh",
+        width: "100vw",
+        overflow: "hidden",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <Header />
-      <Table />
+      <Table height={"calc(100% - 64px"} />
     </Box>
   );
 }
