@@ -1,10 +1,12 @@
+import { Box } from "@mui/material"
+import { Header } from "./components/Header"
 
 function App() {
 
   return (
-    <>
-      <h1>Fresh App</h1>
-    </>
+    <Box sx={{height: '100vh', width: '100vw'}}>
+      <Header />
+    </Box>
   )
 }
 
