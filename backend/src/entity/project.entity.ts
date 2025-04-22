@@ -1,8 +1,8 @@
-import { Entity, Column, PrimaryColumn } from "typeorm";
+import { Entity, Column, PrimaryColumn } from 'typeorm';
 
 @Entity('projects')
 export class ProjectEntity {
- @PrimaryColumn('text')
+  @PrimaryColumn('text')
   id: string;
 
   @Column('text')

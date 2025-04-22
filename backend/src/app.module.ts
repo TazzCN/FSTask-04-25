@@ -10,11 +10,16 @@ import * as path from 'path';
   imports: [
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: path.resolve(__dirname, '..', 'data', 'app.sqlite', 'sylvera-programming-task.db'),
+      database: path.resolve(
+        __dirname,
+        '..',
+        'data',
+        'sylvera-programming-task.db',
+      ),
       entities: [ProjectEntity],
       synchronize: false,
     }),
-    ProjectModule
+    ProjectModule,
   ],
   controllers: [AppController],
   providers: [AppService],
