@@ -11,6 +11,21 @@ This codebase is for the following:
 - Frontend: React (Vite + TypeScript), Axios
 - Tooling: Docker
 
+## Prerequisites
+
+Ensure you have the following installed on your system:
+
+- **Node.js**: Version 22.x or higher.
+- **Docker**: Version 28.x or higher.
+
+Verify your installations by running:
+
+```
+node -v
+npm -v
+docker -v
+```
+
 ## Running Locally
 
 You can build the images using:
